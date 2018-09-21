@@ -1,0 +1,1 @@
+# Welles-Wilder-Momentum-MT5
