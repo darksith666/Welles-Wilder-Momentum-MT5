@@ -45,18 +45,6 @@ MqlTick last_tick;
 //+------------------------------------------------------------------+
 void OnTick()
   {
-   /*if(done==false)
-     {
-      PositionSelect(Symbol());
-      profit = PositionGetDouble(POSITION_PROFIT);
-      //printf("profit = "+DoubleToString(profit));
-      if (profit>1){
-         trade.PositionClose(Symbol());         
-      }
-      
-      //done=true;
-     }*/
-
    datetime ThisBarTime=(datetime)SeriesInfoInteger(Symbol(),Period(),SERIES_LASTBAR_DATE);
    if(ThisBarTime==LastBarTime)
      {
